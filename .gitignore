@@ -1,0 +1,12 @@
+logs/
+models/
+results/
+tmp_trainer/
+__pycache__/
+*.pyc
+*.pt
+*.npy
+*.json
+*.npz
+*.csv
+zero_shot_classification_mistral.py
