@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 import torch
 from transformers import EarlyStoppingCallback
 
-# GPU KONTROLÜ
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
 
@@ -33,9 +33,9 @@ class TextDataset(Dataset):
             max_length=self.max_length,
             return_tensors='pt'
         )
-        item = {key: encoding[key].squeeze(0).to(device) for key in encoding}  # GPU'ya taşı
+        item = {key: encoding[key].squeeze(0).to(device) for key in encoding}  
         label = self.label2id[self.labels[idx]]
-        item['labels'] = torch.tensor(label, dtype=torch.long).to(device)  # GPU'ya taşı
+        item['labels'] = torch.tensor(label, dtype=torch.long).to(device)  
         
         return item
 
@@ -53,7 +53,6 @@ def compute_metrics(pred):
         'f1': f1
     }
 
-# MODEL ve TOKENIZER YÜKLEME
 model_path = "google-bert/bert-base-uncased"
 
 id2label = {

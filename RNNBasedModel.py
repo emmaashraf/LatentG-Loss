@@ -28,22 +28,3 @@ class TextRNN(nn.Module):
             hn = hn[-1]
 
         return self.fc(hn)
-
-
-
-# vocab_size = 10000
-# embed_dim = 128
-# hidden_dim = 64
-# output_dim = 7  
-# seq_len = 20
-# batch_size = 8
-
-# # Model Oluşturuluyor
-# model = TextRNN(vocab_size, embed_dim, hidden_dim, output_dim, rnn_type='LSTM', num_layers=2, bidirectional=True)
-
-# input_tensor = torch.randint(0, vocab_size, (batch_size, seq_len))  # (8, 20)
-# print(f"Input tensor shape: {input_tensor.shape}")
-
-# # Forward Pass
-# output = model(input_tensor)
-# print(f" Output tensor shape: {output.shape}")
