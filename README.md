@@ -35,7 +35,7 @@ This repository includes:
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/LatentG-Loss.git
+git clone https://github.com/korhansevinc/LatentG-Loss.git
 cd LatentG-Loss
 ```
 
