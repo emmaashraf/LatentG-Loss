@@ -50,7 +50,7 @@ The DualLatentGNet architecture and LatentGLoss presented in this work has demon
 
 *Quantitative and qualitative results are provided in the paper.*
 
-## 📄 Citation
+## Citation
 
 If you use this work in your research, or find it useful, please cite it as follows:
 
