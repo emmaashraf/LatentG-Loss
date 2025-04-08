@@ -9,8 +9,8 @@ Model Chekcpoints, Datasets, Embeddings and Other util files can be found at : `
 
 This repository includes:
 
--  `train_textcnn_w_latentG_Loss.py` — Model architectures used in the experiments  
--  `tversky_loss.py , dice_loss.py` — Implementation of different loss functions  
-- 📁 `train_*.py, finetune_*.py, test_*.py, sentiment_analysis.ipynb` — Training finetuning and evaluation scripts with proposed hyperparameters. 
-- 📁 `DualArchitecture.py, RNNBasedModel.py, TextAutoEncoder.py, TextCNN.py, TextDataset.py, fit_mog_2_latent_descriptor.ipynb, fit_mog_2_latent_descriptor_dualarchitecture.ipynb, latentG_Loss.ipynb` — Configs, Utils and Architecture implementations 
-- 📁 `results/` — Generated results and logs
+- 📜 `train_textcnn_w_latentG_Loss.py` — Model architectures used in the experiments  
+- 📜 `tversky_loss.py , dice_loss.py` — Implementation of different loss functions  
+- 📜 `train_*.py, finetune_*.py, test_*.py, sentiment_analysis.ipynb` — Training finetuning and evaluation scripts with proposed hyperparameters. 
+- 📜 `DualArchitecture.py, RNNBasedModel.py, TextAutoEncoder.py, TextCNN.py, TextDataset.py, fit_mog_2_latent_descriptor.ipynb, fit_mog_2_latent_descriptor_dualarchitecture.ipynb, latentG_Loss.ipynb` — Configs, Utils and Architecture implementations 
+- 📁 `drive folder` — Generated results, models, vectors, etc.
