@@ -42,9 +42,9 @@ cd LatentG-Loss
 ### Running Experiments
 
 To train, test a model with Latent-G Loss, you can use the train and test scripts.
-Also the weights of the trained model can be found in drive link.
+Also the weights of the trained model and papers copy can be found in drive link.
 
-## 📈 Results
+## Results
 
 The DualLatentGNet architecture and LatentGLoss presented in this work has demonstrated impressive results in text classification, outperforming traditional machine learning models and competing with leading transformer-based approaches. By focusing on efficiency, scalability, and feature extraction, our method provides an alternative to the highly resource-intensive transformer models, proving that performance and computational efficiency are not mutually exclusive.
 
