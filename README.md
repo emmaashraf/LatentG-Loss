@@ -55,6 +55,13 @@ The DualLatentGNet architecture and LatentGLoss presented in this work has demon
 If you use this work in your research, or find it useful, please cite it as follows:
 
 ```
-Korhan Sevinc, LatentGLoss, GitHub repository, 2025.
-Available at https://github.com/korhansevinc/LatentG-Loss
+@misc{sevinç2025newtrainingapproachtext,
+      title={A new training approach for text classification in Mental Health: LatentGLoss}, 
+      author={Korhan Sevinç},
+      year={2025},
+      eprint={2504.07245},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2504.07245}, 
+}
 ```
